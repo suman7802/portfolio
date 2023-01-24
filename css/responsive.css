@@ -1,0 +1,69 @@
+@media (max-width: 2560px) {
+  .home-img::before {
+    top: 0;
+    left: 55px;
+  }
+  .home-img::after {
+    bottom: 0;
+    right: 55px;
+  }
+}
+@media (max-width: 1360px) {
+  .home-img::before {
+    top: 20;
+    left: 30px;
+  }
+  .home-img::after {
+    bottom: 0;
+    right: 20px;
+  }
+
+}
+@media (max-width: 1200px) {
+  .nav-toggler {
+    display: flex;
+    left: 10px;
+  }
+  .hamBurger {
+    left: -270px;
+  }
+  .main-container {
+    padding-left: 0;
+  }
+  .info-item p span {
+    display: block;
+    margin-left: 0;
+  }
+}
+@media (max-width: 900px) {
+  .home .home-img {
+    display: none;
+  }
+  .home .home-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .contact .contact-info-item,
+  .portfolio .portfolio-item {
+    flex: 0 0 50%;
+    max-width: 500%;
+  }
+}
+@media (max-width: 765px) {
+  .education,
+  .service .service-item,
+  .experience,
+  .personal-info,
+  .contact .contact-info-item,
+  .portfolio .portfolio-item,
+  .skills {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .info-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
